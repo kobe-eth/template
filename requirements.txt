@@ -1,0 +1,3 @@
+black
+python-dotenv
+eth-brownie==1.18.1

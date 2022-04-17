@@ -1,0 +1,17 @@
+networks:
+  default: development
+  explorer: https://etherscan.io/
+
+project_structure:
+  contracts: src
+
+compiler:
+  solc:
+    version: 0.8.10
+    optimizer: 
+      enabled: true
+      runs: 1_000_000
+    remappings:
+      - "solfege/=lib/solfege/src/"
+      - "ds-test/=lib/ds-test/src/"
+      - "forge-std/=lib/forge-std/src/"

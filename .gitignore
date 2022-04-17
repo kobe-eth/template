@@ -1,0 +1,13 @@
+cache/
+out/
+node_modules/
+
+DS_Store
+cache/
+build/
+reports/
+.DS_STORE
+__pycache__
+.history
+.hypothesis/
+.env
